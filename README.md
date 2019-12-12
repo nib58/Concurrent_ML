@@ -1,0 +1,3 @@
+The jni interface usually available with gradle plugins is deprecated for non- android projects for the gradle plugin I was using. Please make sure to change the explicit absolute path inputted into System.load() on line 66 of HelloLenskit.java so that it reflects the local storage location of the dylib file 
+
+The current configured model is funkSVD. The procedure for the SVD Factorization is the last implementation listed in the report.
